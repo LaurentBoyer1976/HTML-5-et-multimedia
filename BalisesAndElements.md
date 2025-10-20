@@ -4,7 +4,7 @@ HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion d
 
 ## Balises audio et vidéo
 
-- `<audio>` : Cette balise est utilisée pour intégrer du contenu audio. Elle prend en charge plusieurs formats audio tels que MP3, WAV et Ogg. Voici un exemple d'utilisation :
+- `<audio>` : Cette balise est utilisée pour intégrer du contenu audio. Elle prend en charge plusieurs formats audio tels que MP3, WAV et Ogg. Voici un exemple d'utilisation [[audio]]:
 
 ```html
 <audio controls>
@@ -14,7 +14,7 @@ HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion d
 </audio>
 ```
 
-- `<video>` : Cette balise est utilisée pour intégrer du contenu vidéo. Elle prend en charge plusieurs formats vidéo tels que MP4, WebM et Ogg. Voici un exemple d'utilisation :
+- `<video>` : Cette balise est utilisée pour intégrer du contenu vidéo. Elle prend en charge plusieurs formats vidéo tels que MP4, WebM et Ogg. Voici un exemple d'utilisation [[video]]:
 
 ```html
 <video controls>
@@ -30,7 +30,7 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
 
 ## Éléments multimédias supplémentaires
 
-- `<track>` : Cette balise est utilisée pour ajouter des sous-titres ou des descriptions audio aux vidéos. Elle est généralement utilisée à l'intérieur de la balise `<video>`. Voici un exemple :
+- `<track>` : Cette balise est utilisée pour ajouter des sous-titres ou des descriptions audio aux vidéos. Elle est généralement utilisée à l'intérieur de la balise `<video>`. Voici un exemple [[track]]:
 
 ```html
 <video controls>
@@ -41,7 +41,7 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
 </video>
 ```
 
-- `<source>` : Cette balise est utilisée pour spécifier plusieurs sources de média pour les balises `<audio>` et `<video>`. Le navigateur choisit automatiquement la source qu'il peut lire:
+- `<source>` : Cette balise est utilisée pour spécifier plusieurs sources de média pour les balises `<audio>` et `<video>`. Le navigateur choisit automatiquement la source qu'il peut lire [[source]]:
 
 ```html
 <video controls width="250" height="200" muted>
@@ -55,7 +55,7 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
 </video>
 ```
 
-- `<embed>` : Bien que moins couramment utilisé en HTML5, cette balise permet d'intégrer des médias externes, tels que des fichiers Flash ou des applications Java.
+- `<embed>` : Bien que moins couramment utilisé en HTML5, cette balise permet d'intégrer des médias externes, tels que des fichiers Flash ou des applications Java [[embed]].
 
 ```html
 <embed
@@ -65,7 +65,7 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
   height="200" />
 ```
 
-- `<object>` : Cette balise peut également être utilisée pour intégrer des médias, mais elle est plus polyvalente et peut contenir différents types de contenu.
+- `<object>` : Cette balise peut également être utilisée pour intégrer des médias, mais elle est plus polyvalente et peut contenir différents types de contenu [[object]].
 
 ```html
 <object
@@ -75,9 +75,9 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
   height="200"></object>
 ```
 
-- `<picture>` : Cette balise est utilisée pour fournir des images adaptatives, permettant de spécifier différentes sources d'images en fonction des conditions telles que la résolution de l'écran.
+- `<picture>` : Cette balise est utilisée pour fournir des images adaptatives, permettant de spécifier différentes sources d'images en fonction des conditions telles que la résolution de l'écran[[picture]].
 
-- `<source>` (dans `<picture>`) : Utilisée pour définir différentes sources d'images pour la balise `<picture>`, permettant une meilleure adaptation aux différents appareils et résolutions.
+- `<source>` (dans `<picture>`) : Utilisée pour définir différentes sources d'images pour la balise `<picture>`, permettant une meilleure adaptation aux différents appareils et résolutions [[source]].
 
 ```html
 <picture>
@@ -88,19 +88,19 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
 </picture>
 ```
 
-- `<img>` : Bien que principalement utilisée pour les images, cette balise est essentielle pour afficher des images dans le contexte multimédia.
+- `<img>` : Bien que principalement utilisée pour les images, cette balise est essentielle pour afficher des images dans le contexte multimédia [[img]].
 
 ```html
 <img src="/shared-assets/images/examples/painted-hand.jpg" alt="Main peinte avec des couleurs vives" />
 ```
 
-- `<canvas>` : Cette balise permet de dessiner des graphiques dynamiques via JavaScript, souvent utilisée pour des animations ou des visualisations interactives.
+- `<canvas>` : Cette balise permet de dessiner des graphiques dynamiques via JavaScript, souvent utilisée pour des animations ou des visualisations interactives [[canvas]].
 
 ```html
 <canvas id="myCanvas" width="200" height="100"></canvas>
 ```
 
-- `<svg>` : Utilisée pour intégrer des graphiques vectoriels scalables, offrant une qualité d'image optimale à toutes les résolutions.
+- `<svg>` : Utilisée pour intégrer des graphiques vectoriels scalables, offrant une qualité d'image optimale à toutes les résolutions [[svg]].
 
 ```html
 <svg width="100" height="100">
@@ -108,7 +108,7 @@ HTML5 fournit également des éléments de contrôle pour les balises audio et v
 </svg>
 ```
 
-- `<figure>` et `<figcaption>` : Ces balises sont utilisées pour regrouper des médias (images, vidéos, etc.) avec leurs légendes, améliorant ainsi la sémantique du contenu.
+- `<figure>` et `<figcaption>` : Ces balises sont utilisées pour regrouper des médias (images, vidéos, etc.) avec leurs légendes, améliorant ainsi la sémantique du contenu [[figure]].
 
 ```html
 <figure>
