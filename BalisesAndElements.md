@@ -2,7 +2,7 @@
 
 HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion des médias, facilitant l'intégration de contenu audio et vidéo dans les pages web. Voici un aperçu des principales balises et éléments liés aux médias en HTML5 :
 
-## Balises audio et vidéo
+## 1.Balises audio et vidéo
 
 - `<audio>` : Cette balise est utilisée pour intégrer du contenu audio. Elle prend en charge plusieurs formats audio tels que MP3, WAV et Ogg. Voici un exemple d'utilisation et le lien [vers audio](audio.md):
 
@@ -24,11 +24,11 @@ HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion d
 </video>
 ```
 
-## Éléments de contrôle
+## 2.Éléments de contrôle
 
 HTML5 fournit également des éléments de contrôle pour les balises audio et vidéo, permettant aux utilisateurs de contrôler la lecture du contenu multimédia. Les attributs `controls` ajoutent des boutons de lecture, de pause et de volume.
 
-## Éléments multimédias supplémentaires
+## 3.Éléments multimédias supplémentaires
 
 - `<track>` : Cette balise est utilisée pour ajouter des sous-titres ou des descriptions audio aux vidéos. Elle est généralement utilisée à l'intérieur de la balise `<video>`. Voici un exemple et le lien [vers track](track.md):
 
