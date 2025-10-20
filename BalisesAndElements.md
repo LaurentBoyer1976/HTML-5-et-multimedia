@@ -4,7 +4,7 @@ HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion d
 
 ## Balises audio et vidéo
 
-- `<audio>` : Cette balise est utilisée pour intégrer du contenu audio. Elle prend en charge plusieurs formats audio tels que MP3, WAV et Ogg. Voici un exemple d'utilisation [[audio]]:
+- `<audio>` : Cette balise est utilisée pour intégrer du contenu audio. Elle prend en charge plusieurs formats audio tels que MP3, WAV et Ogg. Voici un exemple d'utilisation [vers audio](audio.md):
 
 ```html
 <audio controls>
@@ -14,7 +14,7 @@ HTML5 a introduit plusieurs balises et éléments spécifiques pour la gestion d
 </audio>
 ```
 
-- `<video>` : Cette balise est utilisée pour intégrer du contenu vidéo. Elle prend en charge plusieurs formats vidéo tels que MP4, WebM et Ogg. Voici un exemple d'utilisation [[video]]:
+- `<video>` : Cette balise est utilisée pour intégrer du contenu vidéo. Elle prend en charge plusieurs formats vidéo tels que MP4, WebM et Ogg. Voici un exemple d'utilisation [vers vidéo](video.md) :
 
 ```html
 <video controls>
